@@ -1,9 +1,11 @@
 # caelestia-lover
 from caelestia dot file, but bypass/ignore the cava lib
-
 i create ts cuz my cava not found and cava on caelestia cant find [cava.pc](https://github.com/LukashonakV/cava.git) so i crate one and its works to me. im already tried before and ask and searching.
 Initial Problem (CMake Error): Initially, the build failed because CMake couldn't find the cava library (PkgConfig::Cava). Initial Investigation: I checked the system and confirmed that the development files for cava (i.e., cava.pc, libcava.so, cava.h) were missing. The installed cava package only contained the program. Fix (Bypassing Cava in CMake): To resolve the CMake error, I edited plugin/src/Caelestia/Services/CMakeLists.txt. I removed everything related to CavaProvider so that the build process would no longer look for it and could complete.
 [SOURCE](https://github.com/caelestia-dots/shell.git)
+
+ez one
+![WhatsApp Image 2026-01-22 at 12 27 52](https://github.com/user-attachments/assets/9e6b1a46-5835-45e7-857f-c6c6f52bc091)
 
 ## INSTALLING
 ```
